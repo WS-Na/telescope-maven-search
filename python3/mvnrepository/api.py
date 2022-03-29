@@ -1,6 +1,5 @@
 from .search import search
-from .formatters import getFormatter
 
 
 def searchDeps(query: str):
-    return list(search(query))
+    return [f'{a.groupId}:{a.artifactId}:{a.latestVersion}' for a in search(query)]

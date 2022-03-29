@@ -1,15 +1,11 @@
-function MavenArtifact(
-  groupId,
-  artifactId,
-  latestVersion
-) {
+function MavenArtifact(groupId, artifactId, latestVersion)
   local self = {}
 
-  self.groupdId = groupId
+  self.groupId = groupId
   self.artifactId = artifactId
   self.latestVersion = latestVersion
 
   return self
-}
+end
 
 return MavenArtifact

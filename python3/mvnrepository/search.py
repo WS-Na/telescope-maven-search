@@ -4,7 +4,6 @@ import json
 import functools as f
 
 from . import artifact
-from .formatters import getFormatter
 
 def compose(f, g):
     return lambda x: f(g(x))
