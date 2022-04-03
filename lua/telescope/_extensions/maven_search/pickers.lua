@@ -5,8 +5,8 @@ local actions = require('telescope.actions')
 local action_state = require('telescope.actions.state')
 local previewers = require('telescope.previewers')
 
-local MavenArtifact = require'telescope._extensions.mvnsearch.artifact'
-local formatters = require'telescope._extensions.mvnsearch.formatters'
+local MavenArtifact = require'telescope._extensions.maven_search.artifact'
+local formatters = require'telescope._extensions.maven_search.formatters'
 
 -- Get a list of {artifact, format} objects
 -- @param query: string - The query string to submit to mvnrepository

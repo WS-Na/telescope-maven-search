@@ -24,7 +24,7 @@ local setup = function(config)
   setupPython()
 end
 
-local telescopeMvnSearch = function(opts)
+local telescopeMavenSearch = function(opts)
   opts = vim.tbl_extend("keep", opts or {}, cfg)
 
   if opts.query == nil then
@@ -41,12 +41,12 @@ local telescopeMvnSearch = function(opts)
     return
   end
 
-  require('telescope._extensions.mvnsearch.pickers').deps(opts);
+  require('telescope._extensions.maven_search.pickers').deps(opts);
 end
 
 return telescope.register_extension {
   setup = setup,
   exports = {
-    mvnsearch = telescopeMvnSearch
+    maven_search = telescopeMavenSearch
   }
 }

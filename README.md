@@ -2,7 +2,7 @@
   <img src="https://asciinema.org/a/0ziLkx1TQ7wWdHPsfHVcXV2nQ.svg" height="200" align="right"/>
 </a>
 
-# telescope-mvnsearch
+# telescope-maven-search
 
 A [telescope](https://github.com/nvim-telescope/telescope.nvim)
 extension to search dependencies in MavenCentral.
