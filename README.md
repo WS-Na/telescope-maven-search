@@ -17,13 +17,13 @@ extension to search dependencies in MavenCentral.
 With packer:
 
 ```lua
-use 'aloussase/telescope-mvnsearch'
+use 'aloussase/telescope-maven-search'
 ```
 
 Then register the extension with telescope:
 
 ```lua
-require'telescope'.load_extension('mvnsearch');
+require'telescope'.load_extension('maven_search');
 ```
 
 ## Options
